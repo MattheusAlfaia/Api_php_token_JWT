@@ -1,0 +1,27 @@
+Instalar o slim framework
+composer require slim/slim "^4.0"
+
+Instalar o Psr7
+composer require slim/psr7
+
+Instalar o token JWT
+composer require firebase/php-jwt "^5.4"
+
+Para atualizar as dependências
+composer update
+
+rota - /auth
+exemplo de post(json)
+{
+    "username": "user",
+    "password": "123"
+}
+
+
+rota - /users 
+exemplo de post(json)
+{
+    "token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsInVzZXJuYW1lIjoidXN1YXJpbyIsImlhdCI6MTY3OTUwNDI4NSwiZXhwIjoxNjc5NTA3ODg1fQ.PKRJnSnEJUOdTqpBP41UQ3Mk3H5TfYArtUKVxGuqr1E",
+    "id": "2",
+    "username": "Fulano"
+}
